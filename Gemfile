@@ -69,6 +69,11 @@ group :test do
   gem 'minitest-reporters'
 end
 
+group :production do
+  gem "pg", "1.3.5"
+end
+
+
 gem "bootstrap-sass", "3.4.1"
 gem "sassc-rails", "2.1.2"
 gem 'rails-controller-testing'
